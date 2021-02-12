@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: Ubuntu_Core
+  vmImage: UbuntuServer 18.04-LTS
 
 variables:
   buildConfiguration: 'Release'

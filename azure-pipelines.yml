@@ -23,3 +23,4 @@ steps:
     WebAppName: 'myfirstdevopswebapp01'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'DOTNETCORE|3.1'
+- task: PublishBuildArtifacts@1
